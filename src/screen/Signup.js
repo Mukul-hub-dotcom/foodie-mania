@@ -11,7 +11,7 @@ const Signup = () => {
   });
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:5000/api/createuser", {
+    const res = await fetch("https://graceful-lion-garb.cyclic.app/api/createuser", {
       method: "Post",
       headers: {
         "Content-Type": "application/json",

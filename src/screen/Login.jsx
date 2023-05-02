@@ -9,7 +9,7 @@ const Login = () => {
   let navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:5000/api/loginuser", {
+    const res = await fetch("https://graceful-lion-garb.cyclic.app/api/loginuser", {
       method: "Post",
       headers: {
         "Content-Type": "application/json",

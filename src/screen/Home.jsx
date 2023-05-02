@@ -7,7 +7,7 @@ function Home() {
   const [foodCat, setFoodCat] = useState([]);
   const [foodItem, setFoodItem] = useState([]);
   const loadData = async () => {
-    let res = await fetch("http://localhost:5000/api/foodData", {
+    let res = await fetch("https://graceful-lion-garb.cyclic.app/api/foodData", {
       method: "POST",
     });
     res = await res.json();
