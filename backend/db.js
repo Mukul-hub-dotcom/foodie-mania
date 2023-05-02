@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const FoodItem = require("./models/foodItem");
 const mongoURL =
   "mongodb+srv://foodiemania:foodiemania@cluster0.uaueuhr.mongodb.net/foodie?retryWrites=true&w=majority";
 
